@@ -4,9 +4,12 @@ const download = require('./lib/download')
 const upload = require('./lib/upload')
 const create = require('./lib/create')
 const reset = require('./lib/reset')
+const config = require('./lib/config')
 
 module.exports = (cfg) => {
-    const config = require('./lib/config')(cfg)
+    if (cfg) {
+        config.set(cfg)
+    }
     
     return {
         config: config,

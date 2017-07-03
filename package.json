@@ -27,14 +27,14 @@
     "bluebird": "^3.5.0",
     "chalk": "^1.1.3",
     "check-types": "^7.1.5",
+    "dot-prop": "^4.1.1",
+    "gists": "^0.1.2",
     "inquirer": "^3.1.1",
     "is-json": "^2.0.1",
     "jsonfile": "^3.0.0",
     "node-dir": "^0.1.17",
-    "optional-conf": "^0.0.6",
     "ora": "^1.3.0",
-    "sander": "^0.6.0",
-    "simple-gist-client": "^0.1.0"
+    "sander": "^0.6.0"
   },
   "devDependencies": {
     "eslint": "^4.1.1"
