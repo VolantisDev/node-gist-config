@@ -23,15 +23,10 @@
   },
   "homepage": "https://github.com/bmcclure/node-gist-config#readme",
   "dependencies": {
-    "app-root-path": "^2.0.1",
     "bluebird": "^3.5.0",
     "chalk": "^1.1.3",
-    "check-types": "^7.1.5",
     "dot-prop": "^4.1.1",
     "inquirer": "^3.1.1",
-    "is-json": "^2.0.1",
-    "jsonfile": "^3.0.0",
-    "node-dir": "^0.1.17",
     "ora": "^1.3.0",
     "sander": "^0.6.0"
   },
