@@ -1,6 +1,6 @@
 {
   "name": "gist-config",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Sync your configuration files with a private gist in the cloud",
   "main": "index.js",
   "scripts": {
