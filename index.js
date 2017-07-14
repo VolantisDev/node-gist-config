@@ -10,10 +10,10 @@ module.exports = (cfg) => {
     return {
         config,
         cli,
-        sync: (data) => sync(config, data),
-        download: (data) => download(config, data),
-        upload: (data) => upload(config, data),
-        create: (data) => create(config, data),
+        sync: (data, meta) => sync(config, data, meta),
+        download: (data, meta) => download(config, data, meta),
+        upload: (data, meta) => upload(config, data, meta),
+        create: (data, meta) => create(config, data, meta),
         reset: () => reset(config)
     }
 }
